@@ -9,11 +9,12 @@
 /* Begin PBXBuildFile section */
 		F2C5E42B1ACAEF570094705A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F2C5E42A1ACAEF570094705A /* main.m */; };
 		F2C5E42E1ACAEF570094705A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F2C5E42D1ACAEF570094705A /* AppDelegate.m */; };
-		F2C5E4311ACAEF570094705A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F2C5E4301ACAEF570094705A /* ViewController.m */; };
+		F2C5E4311ACAEF570094705A /* EventTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F2C5E4301ACAEF570094705A /* EventTableViewController.m */; };
 		F2C5E4341ACAEF570094705A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F2C5E4321ACAEF570094705A /* Main.storyboard */; };
 		F2C5E4361ACAEF570094705A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F2C5E4351ACAEF570094705A /* Images.xcassets */; };
 		F2C5E4391ACAEF570094705A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = F2C5E4371ACAEF570094705A /* LaunchScreen.xib */; };
 		F2C5E4451ACAEF570094705A /* MeetMeUp_MVCTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F2C5E4441ACAEF570094705A /* MeetMeUp_MVCTests.m */; };
+		F2C5E4531ACAFD290094705A /* events.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F2C5E4521ACAFD290094705A /* events.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,14 +33,15 @@
 		F2C5E42A1ACAEF570094705A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		F2C5E42C1ACAEF570094705A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		F2C5E42D1ACAEF570094705A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		F2C5E42F1ACAEF570094705A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		F2C5E4301ACAEF570094705A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		F2C5E42F1ACAEF570094705A /* EventTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EventTableViewController.h; sourceTree = "<group>"; };
+		F2C5E4301ACAEF570094705A /* EventTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EventTableViewController.m; sourceTree = "<group>"; };
 		F2C5E4331ACAEF570094705A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F2C5E4351ACAEF570094705A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		F2C5E4381ACAEF570094705A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		F2C5E43E1ACAEF570094705A /* MeetMeUp-MVCTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "MeetMeUp-MVCTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F2C5E4431ACAEF570094705A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F2C5E4441ACAEF570094705A /* MeetMeUp_MVCTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MeetMeUp_MVCTests.m; sourceTree = "<group>"; };
+		F2C5E4521ACAFD290094705A /* events.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = events.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,10 +85,11 @@
 			children = (
 				F2C5E42C1ACAEF570094705A /* AppDelegate.h */,
 				F2C5E42D1ACAEF570094705A /* AppDelegate.m */,
-				F2C5E42F1ACAEF570094705A /* ViewController.h */,
-				F2C5E4301ACAEF570094705A /* ViewController.m */,
+				F2C5E42F1ACAEF570094705A /* EventTableViewController.h */,
+				F2C5E4301ACAEF570094705A /* EventTableViewController.m */,
 				F2C5E4321ACAEF570094705A /* Main.storyboard */,
 				F2C5E4351ACAEF570094705A /* Images.xcassets */,
+				F2C5E4521ACAFD290094705A /* events.jpg */,
 				F2C5E4371ACAEF570094705A /* LaunchScreen.xib */,
 				F2C5E4281ACAEF570094705A /* Supporting Files */,
 			);
@@ -201,6 +204,7 @@
 			files = (
 				F2C5E4341ACAEF570094705A /* Main.storyboard in Resources */,
 				F2C5E4391ACAEF570094705A /* LaunchScreen.xib in Resources */,
+				F2C5E4531ACAFD290094705A /* events.jpg in Resources */,
 				F2C5E4361ACAEF570094705A /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -219,7 +223,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F2C5E4311ACAEF570094705A /* ViewController.m in Sources */,
+				F2C5E4311ACAEF570094705A /* EventTableViewController.m in Sources */,
 				F2C5E42E1ACAEF570094705A /* AppDelegate.m in Sources */,
 				F2C5E42B1ACAEF570094705A /* main.m in Sources */,
 			);
